@@ -139,3 +139,33 @@ body, html {
     justify-content: center;
 }
 
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Mengubah space-between ke flex-start */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Pastikan elemen berada di kiri */
+}
+
+.logo-container img {
+    margin-right: 10px; /* Memberikan sedikit jarak antara logo dan teks */
+}
+
+.navbar-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    margin-left: auto; /* Memastikan link menu tetap di sebelah kanan */
+}
