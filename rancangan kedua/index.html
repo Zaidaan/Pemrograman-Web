@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HMTI UMRAH</title>
+        
+        <link rel="stylesheet" href="styles.css"> <!-- Ini adalah tempat link CSS eksternal -->
+        <style>
+            /* Footer Navbar */
+            .footer {
+                background-color: #000; /* Warna latar hitam */
+                color: #fff; /* Warna teks putih */
+                padding: 20px 0;
+                display: flex;
+                justify-content: center; /* Teks dan logo di tengah */
+                align-items: center;
+                position: static; /* Fixed position untuk tetap di bawah */
+                bottom: 0;
+                width: 100%;
+            }
+
+            .footer img {
+                height: 40px; /* Ukuran logo */
+                margin-right: 10px; /* Jarak antara logo dan teks */
+            }
+
+            .footer p {
+                margin: 0;
+                font-size: 1em; /* Ukuran teks */
+                font-weight: 400;
+            }
+
+            .footer a {
+                color: #17cf17; /* Warna teks untuk HMTI */
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            .footer a:hover {
+                text-decoration: underline; /* Efek underline saat hover */
+            }
+        </style>
+    </head>
+    
+<body>
+    <div class="navbar">
+        <img alt="HMTI Logo" height="100" src="logo_hmti.png" width="100"/>
+        <span class="navbar-title">Himpunan Mahasiswa Informatika Universitas Maritim Raja Ali Haji</span>
+        
+        <div class="nav-links">
+            <a href="#">Beranda</a>
+            <a href="#">Berita</a>
+            <a href="dosen.html">Dosen</a> <!-- Link ke halaman dosen -->
+            <a href="#">Unduhan</a>
+            <div class="dropdown">
+                <a class="dropbtn" href="#">Tentang HMTI</a>
+                <div class="dropdown-content">
+                    <a href="struktur.html">Struktur Organisasi</a>
+                    <a href="#">Visi & Misi</a>
+                    <a href="proker.html">Program kerja</a>
+                </div>
+            </div>
+            <a class="button" href="#">I-Magz</a>
+        </div>
+    </div>
+
+    <div class="hero">
+        <img alt="Hero Background" height="600" src="background.jpg" width="1440"/>
+        <div class="overlay">
+            <h1>Selamat Datang</h1>
+            <p>Website Resmi Himpunan Mahasiswa Informatika Universitas Maritim Raja Ali Haji</p>
+            <a class="button" href="#">Kontak Kami</a>
+            <div class="logos">
+                <img alt="HMTI Logo" src="logo_hmti.png" style="width: 150px; height:auto" />
+                <img alt="University Logo" src="LOGO_UMRAH.png"/>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <img src="logo_hmti.png" alt="HMTI Logo">
+        <p>&copy; 2024 <a href="https://www.instagram.com/umrahhmti/" target="_blank">HMTI Umrah</a>. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
